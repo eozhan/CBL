@@ -1,1 +1,1 @@
-This project implements a simple version of the Minesweeper game as the CBL Assignment of TU/e
+This project implements the nostalgic Microsoft game Minesweeper as part of the the CBL Assignment. Prepared by Ece and Eliza
