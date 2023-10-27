@@ -9,11 +9,11 @@ import javax.swing.JPanel;
 
 /*
  * The main View component of the mine sweeper game application. It maintains
- * the mine field. Although the model data structure is a single array, the 
+ * the mine field. Although the model representation is a single array, the 
  * view is rendered as a two dimensional mine field. Each cell kind has its
  * own icon. The MinesweeperMain object set in the constructor is the main 
- * Control object. Besides the main minefield panel, there is also a small
- * statu panel at the bottom.
+ * Control object. Besides the central minefield panel, there is also a small
+ * status panel at the bottom.
  */
 public class MinesweeperBoard extends JPanel {
     private ImageIcon ICN_TILE_EMPTY;
@@ -33,7 +33,6 @@ public class MinesweeperBoard extends JPanel {
 
     private int BOARD_WIDTH = 0;
     private int BOARD_HEIGHT = 0;
-    // private boolean inGame;
     private int minesLeft;
     private final JLabel statusbar;
 
@@ -104,7 +103,7 @@ public class MinesweeperBoard extends JPanel {
 
     // @Override
     /*
-     * The overriding paintComponent method that performa one of the most 
+     * The overriding paintComponent method performs one of the most 
      * critical tasks in the game. Traverses the cells one by one and renders
      * them on the the mine field GUI. If there are no more cells left to 
      * undiscover, then inform the Controller that the game is won .

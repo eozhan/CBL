@@ -15,12 +15,14 @@ import javax.swing.JLabel;
  * Usage:
  * DESCRIPTION:
  *      This project implements the nostalgic minesweeper game of Windows in
- *      a more modern GUI with extended features. The project uses advanced 
- *      Swing constructs (JFrame, JPanel, JButton, JRadioButton, 
+ *      a modern GUI with extended features. The project uses rich set of 
+ *      Swing components (JFrame, JPanel, JButton, JRadioButton, 
  *      GridbagLayout, BoxLayout), event handling (ActionListener,
- *      MouseAdapter), and game configuration via properties file. The design
- *      also follows the most widely used GUI interaction design pattern, 
- *      Model-View-Controller.
+ *      MouseAdapter), and game configuration via properties file. It also
+ *      features Object-Oriented techniques including inheritance (on Swing
+ *      classes and TimerTask), encapsulation (via a access modifiers and 
+ *      getter and setters) and polymorphism (via overriding paintComponent(),
+ *      actionPerformed(), run())
  *      <p>
  *      The game starts by taking into account the difficulty level and the
  *      related parameters in properties file. There are 3 dfficulty levels:
