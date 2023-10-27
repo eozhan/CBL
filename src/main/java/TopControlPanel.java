@@ -17,11 +17,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
-// import MinefieldModel.ContentType;
-// import MinefieldModel.IconType;
-
-//import org.w3c.dom.events.MouseEvent;
-
 public class TopControlPanel extends JPanel {
 
     MinesweeperMain mainControl;
